@@ -1,0 +1,130 @@
+# default
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# app_mywebbrowser module
+/app_mywebbrowser/*.iml
+/app_mywebbrowser/.gradle
+/app_mywebbrowser/local.properties
+/app_mywebbrowser/.idea/caches
+/app_mywebbrowser/.idea/libraries
+/app_mywebbrowser/.idea/modules.xml
+/app_mywebbrowser/.idea/workspace.xml
+/app_mywebbrowser/.idea/navEditor.xml
+/app_mywebbrowser/.idea/assetWizardSettings.xml
+/app_mywebbrowser/.DS_Store
+/app_mywebbrowser/build
+/app_mywebbrowser/captures
+/app_mywebbrowser/.externalNativeBuild
+/app_mywebbrowser/.cxx
+
+
+# app_obesitycalculator module
+/app_obesitycalculator/*.iml
+/app_obesitycalculator/.gradle
+/app_obesitycalculator/local.properties
+/app_obesitycalculator/.idea/caches
+/app_obesitycalculator/.idea/libraries
+/app_obesitycalculator/.idea/modules.xml
+/app_obesitycalculator/.idea/workspace.xml
+/app_obesitycalculator/.idea/navEditor.xml
+/app_obesitycalculator/.idea/assetWizardSettings.xml
+/app_obesitycalculator/.DS_Store
+/app_obesitycalculator/build
+/app_obesitycalculator/captures
+/app_obesitycalculator/.externalNativeBuild
+/app_obesitycalculator/.cxx
+
+# app_stopwatch module
+/app_stopwatch/*.iml
+/app_stopwatch/.gradle
+/app_stopwatch/local.properties
+/app_stopwatch/.idea/caches
+/app_stopwatch/.idea/libraries
+/app_stopwatch/.idea/modules.xml
+/app_stopwatch/.idea/workspace.xml
+/app_stopwatch/.idea/navEditor.xml
+/app_stopwatch/.idea/assetWizardSettings.xml
+/app_stopwatch/.DS_Store
+/app_stopwatch/build
+/app_stopwatch/captures
+/app_stopwatch/.externalNativeBuild
+/app_stopwatch/.cxx
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows
