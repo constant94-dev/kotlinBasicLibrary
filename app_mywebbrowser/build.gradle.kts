@@ -42,7 +42,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.2"
+        kotlinCompilerExtensionVersion = "1.4.3"
     }
 }
 
@@ -53,6 +53,7 @@ dependencies {
     val lifecycleVersion = "2.5.1"
     val liveDataVersion = "1.3.3"
     val material3Version = "1.0.1"
+    val materialVersion = "1.3.1"
     val navVersion = "2.5.3"
     val coreVersion = "1.9.0"
     val composeBom = platform("androidx.compose:compose-bom:2023.01.00")
@@ -63,7 +64,9 @@ dependencies {
     // only import the main APIs for the underlying toolkit systems, such as input and measurement/layout
     implementation("androidx.compose.ui:ui")
     // Material Design 3
-    implementation("androidx.compose.material3:material3:$material3Version")
+    //implementation("androidx.compose.material3:material3:$material3Version")
+    // Material Design
+    implementation("androidx.compose.material:material:$materialVersion")
 
     // 앱의 API 레벨 호환성을 해결한다.
     implementation("androidx.appcompat:appcompat:$appcompatVersion")
