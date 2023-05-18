@@ -57,6 +57,8 @@ dependencies {
     val materialVersion = "1.3.1"
     val navVersion = "2.5.3"
     val coreVersion = "1.9.0"
+    val pagerVersion = "0.30.1"
+    val coilVersion = "2.3.0"
     val composeBom = platform("androidx.compose:compose-bom:2023.01.00")
 
     implementation(composeBom)
@@ -102,4 +104,14 @@ dependencies {
 
     // Jetpack Compose Integration
     implementation("androidx.navigation:navigation-compose:$navVersion")
+
+    // Pager
+    implementation("com.google.accompanist:accompanist-pager:$pagerVersion")
+    // https://mvnrepository.com/artifact/com.google.accompanist/accompanist-pager-indicators
+    implementation("com.google.accompanist:accompanist-pager-indicators:$pagerVersion")
+
+
+    // coil
+    implementation("io.coil-kt:coil-compose:$coilVersion")
+
 }
