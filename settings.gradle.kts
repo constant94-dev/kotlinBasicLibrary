@@ -16,3 +16,4 @@ rootProject.name = "KotlinBasicLibrary"
 include(":app_stopwatch")
 include(":app_obesitycalculator")
 include(":app_mywebbrowser")
+include(":app_electronicgallery")
