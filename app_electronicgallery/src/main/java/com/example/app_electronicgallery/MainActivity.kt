@@ -51,16 +51,16 @@ class MainActivity : ComponentActivity() {
     @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
             val viewModel = viewModel<MainViewModel>()
+
             var granted by remember { mutableStateOf(false) }
 
-            // 권한 요청에 대한 클래스는 제공된다. 'ActivityResultContracts.RequestPermission()'
             val launcher =
-                rememberLauncherForActivityResult(contract = ActivityResultContracts.RequestPermission()) { isGranted ->
+                rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
                     granted = isGranted
                 }
+
             if (ContextCompat.checkSelfPermission(
                     this,
                     Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -78,7 +78,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         } // setContent end
-    }
+    } // onCreate end
 }
 
 class MainViewModel(application: Application) : AndroidViewModel(application) {
@@ -105,6 +105,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 uris.add(contentUri)
             }
         }
+        _photoUris.value = uris
     }
 }
 
@@ -115,9 +116,9 @@ fun PermissionRequestScreen(onClick: () -> Unit) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "권한이 허용되지 않았습니다.")
+        Text("권한이 허용되지 않았습니다")
         Button(onClick = onClick) {
-            Text(text = "권한 요청.")
+            Text("권한 요청")
         }
     }
 }
