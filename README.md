@@ -24,6 +24,6 @@
 
 <p>
   <h4>2023.05.19<br>
-  : 수평측정기 App 생성 및 ViewModel, UI, 화면과 로직 연결
+  : 수평측정기 App 생성 및 ViewModel, UI, 화면과 로직 연결<br/>
   : 실로폰 App 생성 및 ViewModel, UI, 화면과 로직 연결</h4>
 </p>
