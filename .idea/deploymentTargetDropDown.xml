@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\sjpark94\.android\avd\Galaxy_Custom_API_33.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="127.0.0.1:50288" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-05-19T01:39:08.817808100Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-05-19T02:25:01.012058700Z" />
   </component>
 </project>
