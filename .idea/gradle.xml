@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_electronicgallery" />
+            <option value="$PROJECT_DIR$/app_gpsmap" />
             <option value="$PROJECT_DIR$/app_horizontalinstrument" />
             <option value="$PROJECT_DIR$/app_mywebbrowser" />
             <option value="$PROJECT_DIR$/app_obesitycalculator" />
