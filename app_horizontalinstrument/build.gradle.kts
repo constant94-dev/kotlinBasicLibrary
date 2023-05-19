@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app_electronicgallery"
+    namespace = "com.example.app_horizontalinstrument"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.app_electronicgallery"
+        applicationId = "com.example.app_horizontalinstrument"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

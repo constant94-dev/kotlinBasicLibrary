@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
             val viewModel = viewModel<MainViewModel>()
             var granted by remember { mutableStateOf(false) }
 
-
             // 권한 요청에 대한 클래스는 제공된다. 'ActivityResultContracts.RequestPermission()'
             val launcher =
                 rememberLauncherForActivityResult(contract = ActivityResultContracts.RequestPermission()) { isGranted ->
