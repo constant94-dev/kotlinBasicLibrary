@@ -28,5 +28,16 @@
 <p>
   <h4>2023.05.19<br>
   : 수평측정기 App 생성 및 ViewModel, UI, 화면과 로직 연결<br/>
-  : 실로폰 App 생성 및 ViewModel, UI, 화면과 로직 연결</h4>
+  : 실로폰 App 생성 및 ViewModel, UI, 화면과 로직 연결<br/>
+  : GPSMap App 생성 및 기초 화면 구성</h4>
+</p>
+
+<p>
+  <h4>2023.05.20<br/>
+  : 전자액자 App 애뮬레이터 이미지 업데이트</h4>
+</p>
+
+<p>
+  <h4>2023.05.22<br/>
+  : GPSMap App ViewModel, UI, 화면과 로직 연결</h4>
 </p>
