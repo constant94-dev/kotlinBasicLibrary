@@ -41,3 +41,8 @@
   <h4>2023.05.22<br/>
   : GPSMap App ViewModel, UI, 화면과 로직 연결</h4>
 </p>
+
+<p>
+  <h4>2023.05.22<br/>
+  : Todo List App ViewModel, UI, 화면과 로직 연결, MVVM(Model-View-ViewModel) 패턴 반영</h4>
+</p>
