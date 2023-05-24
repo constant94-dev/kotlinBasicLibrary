@@ -1,6 +1,10 @@
 ### kotlin 기초 프로젝트
 
 <p>
+  <h4>해당 프로젝트의 kotlin 버전은 <span style="color=red;">1.8.10</span> compose 버전은 <span style="color=red;">1.4.3</span> 입니다.</h4>
+</p>
+
+<p>
   <h4>2023.05.09<br>
   : 비만도 계산기 App 생성 및 ViewModel, UI, 화면과 로직 연결</h4>
 </p>
